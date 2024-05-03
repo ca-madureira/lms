@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head> </head>
+  <body>
+    <div>
+      <div>
+        <h1>Seu pedido foi confirmado!</h1>
+        <p></p>
+      </div>
+    </div>
+    <br />
+    <br />
+    <div>
+      <h4>Aqui esta seu pedido!</h4>
+      <table>
+        <tr>
+          <td>Pedido: <%= order._id %></td>
+          <td>Data do pedido: <%= order.date %></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>Item</td>
+          <td>Quantidade</td>
+          <td>Preço</td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td><%= order.name %></td>
+          <td>1</td>
+          <td><%= order.price %></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>Subtotal:</td>
+          <td><%= order.price %></td>
+        </tr>
+      </table>
+      <table>
+        <tr>
+          <td>Total:</td>
+          <td><%= order.price %></td>
+        </tr>
+      </table>
+      <div>
+        <p>
+          Se você tem duvidas, favor contate-nos
+          <a href="mailto:camila_pang@hotmail.com">camila_pang@hotmail.com</a>
+        </p>
+        <p>&copy; 2023 Elearning. todos os direitos reservados</p>
+      </div>
+    </div>
+  </body>
+</html>

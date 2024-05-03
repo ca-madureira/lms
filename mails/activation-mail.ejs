@@ -1,0 +1,29 @@
+<html>
+  <title>LMS Ativação de Email</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <meta name="viewport" content="" width="device-width," initial-scale="1.0" />
+  <style type="text/css"></style>
+  <body>
+    <div>
+      <div>
+        <h1>Bem-vindo(a) ao LMS</h1>
+      </div>
+      <div>
+        <p><%= user.name %></p>
+        <p>Para ativar a sua conta, por favor siga os passos seguintes:</p>
+        <h2><%= activationCode %></h2>
+        <p>Por favor, insira o codigo de ativação nos próximos 5 minutos</p>
+        <p>
+          Se você não solicitou a ativação de sua conta, favor ignorar este
+          email
+        </p>
+      </div>
+      <div>
+        <p>
+          Se tem alguma dúvida, favor nos contatar
+          <a href="mailto:camila_pang@hotmail.com">camila_pang@hotmail.com</a>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>
